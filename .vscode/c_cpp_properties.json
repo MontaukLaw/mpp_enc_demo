@@ -1,0 +1,59 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}/dep/rkdrm",
+            "${workspaceFolder}",
+            "${workspaceFolder}/include",
+            "${workspaceFolder}/include/mpp",
+            "${workspaceFolder}/include/osal",
+            "/usr/include/",
+            "/usr/include/rockchip",
+            "${workspaceFolder}/dep/rga/include",
+            "/home/orangepi/gflags/build/include"
+        ],
+        "myCompilerPath": "/usr/local/bin/gcc-7"
+    },
+    "configurations": [
+        {
+            "name": "Compile",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "/usr/include",
+                "/usr/include/opencv4",
+                "${workspaceFolder}/include/mpp",
+                "${workspaceFolder}/include/osal",
+                "${workspaceFolder}/include/utils",
+                "${workspaceFolder}/dep/rga/include",
+                "${workspaceFolder}/dep/rknn/include",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/dep/rkdrm",
+                "${workspaceFolder}",
+                "${workspaceFolder}/include",
+                "/usr/include/",
+                "/usr/include/rockchip",
+                "${workspaceFolder}/dep/rga/include",
+                "/home/orangepi/gflags/build/include",
+            ],
+            "defines": [
+                "FOO",
+                "BAR=100"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/include/config.h"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "/path/to/compile_commands.json",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
